@@ -17,6 +17,16 @@ $ python3 -m venv venv
 $ source venv/bin/activate
 $ python3 -m pip install -r requirements.txt
 ```
+Or you can use pip/pipx to install the project directly
+```
+$ # With pip
+$ pip3 install git+https://github.com/synacktiv/Prox-Ez
+```
+```
+$ # With pipx
+$ pipx install git+https://github.com/synacktiv/Prox-Ez
+```
+
 2. Enjoy.
 
 ## Usage
